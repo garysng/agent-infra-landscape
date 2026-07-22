@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-07-22",
+  "scope": "A curated set of commercial sandbox products for AI agents.",
+  "entries": [
+    {
+      "id": "e2b",
+      "company": "E2B",
+      "product": "E2B Sandbox",
+      "market_role": "startup-scaleup",
+      "category": "general-purpose",
+      "positioning": "Secure cloud computers for AI agents that need code execution and real-world tools.",
+      "workload": "Code interpreters, computer use, data analysis, and general agent tasks",
+      "isolation": "microVM",
+      "state_model": "Session state with lifecycle controls and reusable templates",
+      "delivery": "managed-cloud",
+      "source_model": "open-core",
+      "website": "https://e2b.dev/",
+      "logo_url": "https://cdn.prod.website-files.com/6717bb6618f6a40d53ac2929/6a2a7d841b5c3c6e1f8eebed_Favicon_512x512.png",
+      "source_urls": [
+        "https://e2b.dev/",
+        "https://e2b.dev/docs"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "daytona",
+      "company": "Daytona",
+      "product": "Daytona Sandboxes",
+      "market_role": "startup-scaleup",
+      "category": "coding-environment",
+      "positioning": "Secure and elastic infrastructure for running AI-generated code.",
+      "workload": "Coding agents, code execution, and reproducible development environments",
+      "isolation": "isolated compute",
+      "state_model": "Snapshots and reusable environment images",
+      "delivery": "managed-cloud",
+      "source_model": "open-core",
+      "website": "https://www.daytona.io/",
+      "logo_url": "https://framerusercontent.com/images/6WPclDLAHHQgPFeA2DRTW1OXVSU.png",
+      "source_urls": [
+        "https://www.daytona.io/",
+        "https://www.daytona.io/docs/"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "runloop",
+      "company": "Runloop",
+      "product": "Runloop Sandboxes",
+      "market_role": "startup-scaleup",
+      "category": "coding-environment",
+      "positioning": "Secure code sandboxes, evaluations, and production infrastructure for AI coding agents.",
+      "workload": "Software engineering agents, agent evaluation, and production agent fleets",
+      "isolation": "isolated devbox",
+      "state_model": "Blueprints and snapshots for reproducible devboxes",
+      "delivery": "managed-cloud",
+      "source_model": "proprietary",
+      "website": "https://runloop.ai/",
+      "logo_url": "https://cdn.prod.website-files.com/68f6566c0817e720021136f4/6900ce80a12232928ce2040c_Webclip.png",
+      "source_urls": [
+        "https://runloop.ai/",
+        "https://docs.runloop.ai/"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "morph",
+      "company": "Morph",
+      "product": "Morph Cloud",
+      "market_role": "startup-scaleup",
+      "category": "coding-environment",
+      "positioning": "Agent compute with instant environment branching and burst scalability.",
+      "workload": "Coding agents and workloads that branch many environments from shared state",
+      "isolation": "virtual machine",
+      "state_model": "Persistent environments with snapshot-based branching",
+      "delivery": "managed-cloud",
+      "source_model": "proprietary",
+      "website": "https://www.morph.so/",
+      "logo_url": "https://www.morph.so/logo.png",
+      "source_urls": [
+        "https://www.morph.so/",
+        "https://cloud.morph.so/docs"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "blaxel",
+      "company": "Blaxel",
+      "product": "Blaxel Sandboxes",
+      "market_role": "startup-scaleup",
+      "category": "agent-runtime",
+      "positioning": "Infrastructure for autonomous agents combining sandboxes, persistent memory, and programmable networking.",
+      "workload": "Long-running autonomous agents and multi-agent systems",
+      "isolation": "microVM",
+      "state_model": "Persistent filesystems, snapshots, and standby resume",
+      "delivery": "managed-cloud",
+      "source_model": "proprietary",
+      "website": "https://blaxel.ai/",
+      "logo_url": "https://blaxel.ai/image/logo_short.png",
+      "source_urls": [
+        "https://blaxel.ai/",
+        "https://docs.blaxel.ai/Sandboxes/Overview"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "modal",
+      "company": "Modal",
+      "product": "Modal Sandboxes",
+      "market_role": "startup-scaleup",
+      "category": "general-purpose",
+      "positioning": "Secure containers for executing untrusted user or agent code on a serverless compute platform.",
+      "workload": "Code execution, data workloads, and agents that also need serverless CPU or GPU compute",
+      "isolation": "container",
+      "state_model": "Ephemeral by default with platform storage integrations",
+      "delivery": "managed-cloud",
+      "source_model": "proprietary",
+      "website": "https://modal.com/",
+      "logo_url": "https://modal.com/assets/favicon.svg",
+      "source_urls": [
+        "https://modal.com/docs/guide/sandboxes",
+        "https://modal.com/docs"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "fly-io",
+      "company": "Fly.io",
+      "product": "Sprites",
+      "market_role": "startup-scaleup",
+      "category": "general-purpose",
+      "positioning": "Stateful, hardware-isolated Linux sandboxes with checkpoint and restore.",
+      "workload": "Arbitrary code, coding agents, and workloads that need a persistent Linux computer",
+      "isolation": "hardware-isolated VM",
+      "state_model": "Persistent filesystem with checkpoint and restore",
+      "delivery": "managed-cloud",
+      "source_model": "proprietary",
+      "website": "https://fly.io/sprites",
+      "logo_url": "https://fly.io/phx/ui/images/favicon/apple-touch-icon-3e4c9ce127b5cd6f5516638d4bbf1dd5.png?vsn=d",
+      "source_urls": [
+        "https://fly.io/sprites",
+        "https://docs.fly.io/sprites/"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "browserbase",
+      "company": "Browserbase",
+      "product": "Browserbase",
+      "market_role": "startup-scaleup",
+      "category": "browser-runtime",
+      "positioning": "Managed browser infrastructure that gives agents access to the web.",
+      "workload": "Browser agents, web automation, and computer-use workflows",
+      "isolation": "managed browser session",
+      "state_model": "Ephemeral and reusable browser sessions",
+      "delivery": "managed-cloud",
+      "source_model": "proprietary",
+      "website": "https://www.browserbase.com/",
+      "logo_url": "https://www.browserbase.com/apple-touch-icon.png",
+      "source_urls": [
+        "https://www.browserbase.com/",
+        "https://docs.browserbase.com/"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "kernel",
+      "company": "Kernel",
+      "product": "Kernel Browsers",
+      "market_role": "startup-scaleup",
+      "category": "browser-runtime",
+      "positioning": "Browser infrastructure for AI agents with reusable sessions, fast spin-up, and autoscaling.",
+      "workload": "Browser agents and high-scale web automation",
+      "isolation": "managed browser session",
+      "state_model": "Reusable browser sessions",
+      "delivery": "managed-cloud",
+      "source_model": "open-core",
+      "website": "https://www.kernel.sh/",
+      "logo_url": "https://www.kernel.sh/apple-touch-icon.png",
+      "source_urls": [
+        "https://www.kernel.sh/",
+        "https://www.kernel.sh/docs"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "steel",
+      "company": "Steel",
+      "product": "Steel Browser API",
+      "market_role": "startup-scaleup",
+      "category": "browser-runtime",
+      "positioning": "Open-source browser infrastructure for AI agents and web automation.",
+      "workload": "Browser agents that need managed or self-hosted browser sessions",
+      "isolation": "managed browser session",
+      "state_model": "Session-scoped browser state",
+      "delivery": "managed-and-self-hosted",
+      "source_model": "open-core",
+      "website": "https://steel.dev/",
+      "logo_url": "https://github.com/steel-dev.png?size=128",
+      "source_urls": [
+        "https://steel.dev/",
+        "https://docs.steel.dev/"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "cloudflare",
+      "company": "Cloudflare",
+      "product": "Sandbox SDK",
+      "market_role": "established-platform",
+      "category": "cloud-platform",
+      "positioning": "Secure, isolated code execution environments powered by Workers and Containers.",
+      "workload": "Agent code execution integrated with the Cloudflare developer platform",
+      "isolation": "container",
+      "state_model": "Sandbox lifecycle with filesystem and process APIs",
+      "delivery": "managed-cloud",
+      "source_model": "open-source-sdk",
+      "website": "https://developers.cloudflare.com/sandbox/",
+      "logo_url": "https://developers.cloudflare.com/favicon.png",
+      "source_urls": [
+        "https://developers.cloudflare.com/sandbox/",
+        "https://github.com/cloudflare/sandbox-sdk"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "docker",
+      "company": "Docker",
+      "product": "Docker Sandboxes",
+      "market_role": "established-platform",
+      "category": "developer-platform",
+      "positioning": "Isolated environments for running AI coding agents with Docker workflows.",
+      "workload": "Local and cloud-connected coding agents",
+      "isolation": "microVM",
+      "state_model": "Per-sandbox workspace and Docker daemon",
+      "delivery": "developer-desktop",
+      "source_model": "proprietary",
+      "website": "https://docs.docker.com/ai/sandboxes/",
+      "logo_url": "https://www.docker.com/wp-content/uploads/2024/02/cropped-docker-logo-favicon-192x192.png",
+      "source_urls": [
+        "https://docs.docker.com/ai/sandboxes/"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "aws",
+      "company": "Amazon Web Services",
+      "product": "Amazon Bedrock AgentCore",
+      "market_role": "established-platform",
+      "category": "cloud-platform",
+      "positioning": "Managed runtime and services for deploying and operating production AI agents.",
+      "workload": "Enterprise agents needing runtime, browser, code interpreter, identity, and observability services",
+      "isolation": "managed runtime",
+      "state_model": "Session-scoped managed services",
+      "delivery": "managed-cloud",
+      "source_model": "proprietary",
+      "website": "https://aws.amazon.com/bedrock/agentcore/",
+      "logo_url": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
+      "source_urls": [
+        "https://aws.amazon.com/bedrock/agentcore/",
+        "https://docs.aws.amazon.com/bedrock-agentcore/"
+      ],
+      "last_verified": "2026-07-22"
+    },
+    {
+      "id": "microsoft-azure",
+      "company": "Microsoft Azure",
+      "product": "Azure Container Apps Dynamic Sessions",
+      "market_role": "established-platform",
+      "category": "cloud-platform",
+      "positioning": "Fast, scalable, isolated compute sessions for untrusted code and application workloads.",
+      "workload": "Code interpreters, untrusted code execution, and session-based applications",
+      "isolation": "container",
+      "state_model": "Session-scoped environment",
+      "delivery": "managed-cloud",
+      "source_model": "proprietary",
+      "website": "https://learn.microsoft.com/en-us/azure/container-apps/sessions",
+      "logo_url": "https://azure.microsoft.com/favicon.ico",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/azure/container-apps/sessions"
+      ],
+      "last_verified": "2026-07-22"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+name: Add or update a company
+description: Propose a sourced addition or correction.
+title: "[Company]: "
+labels:
+  - data
+body:
+  - type: dropdown
+    id: dataset
+    attributes:
+      label: Dataset
+      options:
+        - Sandbox providers
+        - Agent companies
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: company
+    attributes:
+      label: Company
+    validations:
+      required: true
+  - type: input
+    id: product
+    attributes:
+      label: Product
+    validations:
+      required: true
+  - type: input
+    id: official-source
+    attributes:
+      label: Official source
+      description: Link to the current product page or documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: Explain the addition or correction in neutral language.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: The company fits the repository's editorial scope.
+          required: true
+        - label: The claim is supported by a first-party source.
+          required: true

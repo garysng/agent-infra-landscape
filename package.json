@@ -1,0 +1,16 @@
+{
+  "name": "agent-infra-landscape",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A structured landscape of AI agent and sandbox companies.",
+  "scripts": {
+    "build": "node scripts/render.mjs",
+    "check:generated": "node scripts/render.mjs --check",
+    "validate": "node scripts/validate.mjs",
+    "test": "npm run validate && npm run check:generated"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
