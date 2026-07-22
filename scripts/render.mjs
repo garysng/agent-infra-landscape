@@ -28,6 +28,9 @@ const sorted = (entries) =>
 const companyCell = (entry) =>
   `<img src="${entry.logo_url}" alt="${escapeCell(entry.company)} logo" width="40" height="40">`;
 
+const featureCompanyCell = (entry) =>
+  `<img src="${entry.logo_url}" alt="${escapeCell(entry.company)} logo" width="64" height="64">`;
+
 const sandboxTable = [
   "| | Company | Product | Segment | Positioning | State model |",
   "|---|---|---|---|---|---|",
@@ -42,7 +45,7 @@ const sandboxFeatureTable = [
   "|---|---|---|---|---|---|---|",
   ...sorted(sandboxes.entries).map(
     (entry) =>
-      `| ${companyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.workload)} | ${escapeCell(entry.isolation)} | ${escapeCell(entry.state_model)} | ${label(entry.delivery)} | ${label(entry.source_model)} |`
+      `| ${featureCompanyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.workload)} | ${escapeCell(entry.isolation)} | ${escapeCell(entry.state_model)} | ${label(entry.delivery)} | ${label(entry.source_model)} |`
   )
 ].join("\n");
 
