@@ -156,7 +156,7 @@
       "delivery": "managed-cloud",
       "source_model": "proprietary",
       "website": "https://www.browserbase.com/",
-      "logo_url": "https://www.browserbase.com/apple-touch-icon.png",
+      "logo_url": "https://github.com/browserbase.png?size=128",
       "source_urls": [
         "https://www.browserbase.com/",
         "https://docs.browserbase.com/"
