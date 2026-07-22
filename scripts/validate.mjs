@@ -23,6 +23,10 @@ const requiredCommon = [
   "positioning",
   "delivery",
   "source_model",
+  "status",
+  "pricing_model",
+  "capabilities",
+  "integrations",
   "website",
   "logo_url",
   "source_urls",
@@ -70,6 +74,12 @@ for (const relativePath of datasets) {
     }
     if (!allowedSourceModels.has(entry.source_model)) {
       fail(`${relativePath}:${entry.id}: invalid source_model`);
+    }
+    if (!Array.isArray(entry.capabilities) || entry.capabilities.length === 0) {
+      fail(`${relativePath}:${entry.id}: capabilities must be non-empty`);
+    }
+    if (!Array.isArray(entry.integrations) || entry.integrations.length === 0) {
+      fail(`${relativePath}:${entry.id}: integrations must be non-empty`);
     }
     if (!isHttpsUrl(entry.website)) fail(`${relativePath}:${entry.id}: invalid website`);
     if (!isHttpsUrl(entry.logo_url)) fail(`${relativePath}:${entry.id}: invalid logo_url`);

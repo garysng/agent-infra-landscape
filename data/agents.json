@@ -15,8 +15,24 @@
       "source_model": "open-core",
       "website": "https://www.langchain.com/",
       "logo_url": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/69a17e4f0c916c644f4de1cd_webclip%20lg.png",
-      "source_urls": ["https://www.langchain.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.langchain.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "orchestration",
+        "evaluation",
+        "observability",
+        "deployment"
+      ],
+      "integrations": [
+        "LangGraph",
+        "LangSmith",
+        "Python",
+        "TypeScript"
+      ]
     },
     {
       "id": "llamaindex",
@@ -30,8 +46,23 @@
       "source_model": "open-core",
       "website": "https://www.llamaindex.ai/",
       "logo_url": "https://www.llamaindex.ai/apple-touch-icon.png",
-      "source_urls": ["https://www.llamaindex.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.llamaindex.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "document-processing",
+        "RAG",
+        "workflows",
+        "agents"
+      ],
+      "integrations": [
+        "LlamaParse",
+        "Python",
+        "TypeScript"
+      ]
     },
     {
       "id": "crewai",
@@ -45,8 +76,23 @@
       "source_model": "open-core",
       "website": "https://www.crewai.com/",
       "logo_url": "https://www.crewai.com/favicon.ico",
-      "source_urls": ["https://www.crewai.com/", "https://docs.crewai.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.crewai.com/",
+        "https://docs.crewai.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "multi-agent",
+        "workflow-automation",
+        "task-orchestration",
+        "deployment"
+      ],
+      "integrations": [
+        "Python",
+        "REST API"
+      ]
     },
     {
       "id": "letta",
@@ -60,8 +106,23 @@
       "source_model": "open-core",
       "website": "https://www.letta.com/",
       "logo_url": "https://www.letta.com/assets/images/webclip.png",
-      "source_urls": ["https://www.letta.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.letta.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "stateful-agents",
+        "memory",
+        "tool-use",
+        "long-running-agents"
+      ],
+      "integrations": [
+        "Python",
+        "TypeScript",
+        "REST API"
+      ]
     },
     {
       "id": "dust",
@@ -75,8 +136,24 @@
       "source_model": "open-core",
       "website": "https://dust.tt/",
       "logo_url": "https://github.com/dust-tt.png?size=128",
-      "source_urls": ["https://dust.tt/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://dust.tt/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "subscription",
+      "capabilities": [
+        "enterprise-agents",
+        "knowledge-search",
+        "workflow-automation",
+        "governance"
+      ],
+      "integrations": [
+        "Slack",
+        "Notion",
+        "Google Drive",
+        "REST API"
+      ]
     },
     {
       "id": "lindy",
@@ -90,8 +167,23 @@
       "source_model": "proprietary",
       "website": "https://www.lindy.ai/",
       "logo_url": "https://cdn.prod.website-files.com/63e15df811f9df22b231e58f/69f7b166e16ce668638e689d_lindy-avatar-favicon.png",
-      "source_urls": ["https://www.lindy.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.lindy.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "subscription",
+      "capabilities": [
+        "workflow-automation",
+        "email",
+        "calendar",
+        "personal-assistant"
+      ],
+      "integrations": [
+        "Gmail",
+        "Google Calendar",
+        "Slack"
+      ]
     },
     {
       "id": "relevance-ai",
@@ -105,8 +197,23 @@
       "source_model": "proprietary",
       "website": "https://relevanceai.com/",
       "logo_url": "https://cdn.relevanceai.com/images/favicon-256x256.png",
-      "source_urls": ["https://relevanceai.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://relevanceai.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "subscription",
+      "capabilities": [
+        "specialist-agents",
+        "workflow-automation",
+        "no-code",
+        "team-management"
+      ],
+      "integrations": [
+        "CRM",
+        "Slack",
+        "REST API"
+      ]
     },
     {
       "id": "composio",
@@ -120,8 +227,24 @@
       "source_model": "open-core",
       "website": "https://composio.dev/",
       "logo_url": "https://composio.dev/apple-touch-icon.png",
-      "source_urls": ["https://composio.dev/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://composio.dev/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "tool-use",
+        "delegated-auth",
+        "integrations",
+        "sandboxed-execution"
+      ],
+      "integrations": [
+        "MCP",
+        "Python",
+        "TypeScript",
+        "OAuth"
+      ]
     },
     {
       "id": "arcade",
@@ -135,8 +258,24 @@
       "source_model": "open-core",
       "website": "https://www.arcade.dev/",
       "logo_url": "https://www.arcade.dev/_astro/webclip.BYnZsC5R.png",
-      "source_urls": ["https://www.arcade.dev/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.arcade.dev/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "tool-use",
+        "authorization",
+        "MCP",
+        "governance"
+      ],
+      "integrations": [
+        "MCP",
+        "OAuth",
+        "Python",
+        "TypeScript"
+      ]
     },
     {
       "id": "mem0",
@@ -150,8 +289,23 @@
       "source_model": "open-core",
       "website": "https://mem0.ai/",
       "logo_url": "https://framerusercontent.com/images/2ys67ADJdvcyGmQnhp8vKWSq8.svg",
-      "source_urls": ["https://mem0.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://mem0.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "memory",
+        "personalization",
+        "retrieval",
+        "user-context"
+      ],
+      "integrations": [
+        "Python",
+        "TypeScript",
+        "REST API"
+      ]
     },
     {
       "id": "tavily",
@@ -165,8 +319,23 @@
       "source_model": "proprietary",
       "website": "https://www.tavily.com/",
       "logo_url": "https://www.tavily.com/favicon.ico",
-      "source_urls": ["https://www.tavily.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.tavily.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "web-search",
+        "content-extraction",
+        "RAG",
+        "research"
+      ],
+      "integrations": [
+        "REST API",
+        "Python",
+        "TypeScript"
+      ]
     },
     {
       "id": "exa",
@@ -180,8 +349,23 @@
       "source_model": "proprietary",
       "website": "https://exa.ai/",
       "logo_url": "https://exa.ai/images/favicon-32x32.png",
-      "source_urls": ["https://exa.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://exa.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "web-search",
+        "deep-research",
+        "structured-content",
+        "retrieval"
+      ],
+      "integrations": [
+        "REST API",
+        "Python",
+        "TypeScript"
+      ]
     },
     {
       "id": "firecrawl",
@@ -195,8 +379,23 @@
       "source_model": "open-core",
       "website": "https://www.firecrawl.dev/",
       "logo_url": "https://www.firecrawl.dev/favicon.png",
-      "source_urls": ["https://www.firecrawl.dev/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.firecrawl.dev/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "web-search",
+        "web-scraping",
+        "content-extraction",
+        "structured-data"
+      ],
+      "integrations": [
+        "REST API",
+        "Python",
+        "TypeScript"
+      ]
     },
     {
       "id": "langfuse",
@@ -210,8 +409,23 @@
       "source_model": "open-core",
       "website": "https://langfuse.com/",
       "logo_url": "https://langfuse.com/apple-touch-icon.png",
-      "source_urls": ["https://langfuse.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://langfuse.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "tracing",
+        "evaluation",
+        "prompt-management",
+        "cost-monitoring"
+      ],
+      "integrations": [
+        "OpenTelemetry",
+        "Python",
+        "TypeScript"
+      ]
     },
     {
       "id": "browserbase",
@@ -225,8 +439,24 @@
       "source_model": "open-core",
       "website": "https://www.browserbase.com/",
       "logo_url": "https://github.com/browserbase.png?size=128",
-      "source_urls": ["https://www.browserbase.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.browserbase.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "browser-agents",
+        "web-automation",
+        "sessions",
+        "browser-observability"
+      ],
+      "integrations": [
+        "Stagehand",
+        "Playwright",
+        "Puppeteer",
+        "CDP"
+      ]
     },
     {
       "id": "cognition",
@@ -240,8 +470,23 @@
       "source_model": "proprietary",
       "website": "https://cognition.ai/",
       "logo_url": "https://cognition.com/apple-icon.png",
-      "source_urls": ["https://cognition.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://cognition.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "subscription",
+      "capabilities": [
+        "coding-agent",
+        "software-engineering",
+        "task-execution",
+        "code-review"
+      ],
+      "integrations": [
+        "GitHub",
+        "GitLab",
+        "Slack"
+      ]
     },
     {
       "id": "anysphere",
@@ -255,8 +500,23 @@
       "source_model": "proprietary",
       "website": "https://cursor.com/",
       "logo_url": "https://cursor.com/marketing-static/icon-192x192-light.png",
-      "source_urls": ["https://cursor.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://cursor.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "subscription",
+      "capabilities": [
+        "coding-agent",
+        "code-generation",
+        "codebase-search",
+        "developer-tools"
+      ],
+      "integrations": [
+        "VS Code",
+        "JetBrains",
+        "GitHub"
+      ]
     },
     {
       "id": "replit",
@@ -270,8 +530,23 @@
       "source_model": "proprietary",
       "website": "https://replit.com/ai",
       "logo_url": "https://cdn.replit.com/dotcom/favicon-rb-48.png",
-      "source_urls": ["https://replit.com/ai"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://replit.com/ai"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "subscription",
+      "capabilities": [
+        "coding-agent",
+        "app-generation",
+        "deployment",
+        "collaboration"
+      ],
+      "integrations": [
+        "GitHub",
+        "Web",
+        "REST API"
+      ]
     },
     {
       "id": "factory",
@@ -285,8 +560,23 @@
       "source_model": "proprietary",
       "website": "https://factory.ai/",
       "logo_url": "https://factory.ai/favicon.svg",
-      "source_urls": ["https://factory.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://factory.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "enterprise-contract",
+      "capabilities": [
+        "coding-agent",
+        "testing",
+        "deployment",
+        "software-engineering"
+      ],
+      "integrations": [
+        "GitHub",
+        "GitLab",
+        "Jira"
+      ]
     },
     {
       "id": "sierra",
@@ -300,8 +590,23 @@
       "source_model": "proprietary",
       "website": "https://sierra.ai/",
       "logo_url": "https://sierra.ai/apple-icon.png",
-      "source_urls": ["https://sierra.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://sierra.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "enterprise-contract",
+      "capabilities": [
+        "customer-service",
+        "workflow-automation",
+        "human-handoff",
+        "analytics"
+      ],
+      "integrations": [
+        "CRM",
+        "Commerce",
+        "REST API"
+      ]
     },
     {
       "id": "decagon",
@@ -315,8 +620,23 @@
       "source_model": "proprietary",
       "website": "https://decagon.ai/",
       "logo_url": "https://cdn.prod.website-files.com/683e5da0b6d8a19de4875ae7/683e5da0b6d8a19de4875b60_webclip.png",
-      "source_urls": ["https://decagon.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://decagon.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "enterprise-contract",
+      "capabilities": [
+        "customer-service",
+        "knowledge-search",
+        "workflow-automation",
+        "analytics"
+      ],
+      "integrations": [
+        "CRM",
+        "Helpdesk",
+        "REST API"
+      ]
     },
     {
       "id": "harvey",
@@ -330,8 +650,23 @@
       "source_model": "proprietary",
       "website": "https://www.harvey.ai/",
       "logo_url": "https://www.harvey.ai/icons/brand-favicon.png",
-      "source_urls": ["https://www.harvey.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.harvey.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "enterprise-contract",
+      "capabilities": [
+        "legal-research",
+        "contract-analysis",
+        "due-diligence",
+        "compliance"
+      ],
+      "integrations": [
+        "Document systems",
+        "Enterprise search",
+        "REST API"
+      ]
     },
     {
       "id": "glean",
@@ -345,8 +680,23 @@
       "source_model": "proprietary",
       "website": "https://www.glean.com/",
       "logo_url": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/67189bfac8da27b3a70ddd93_256%20x%20256%20Glean%20Favicon.png",
-      "source_urls": ["https://www.glean.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.glean.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "enterprise-contract",
+      "capabilities": [
+        "enterprise-search",
+        "knowledge-management",
+        "workflow-automation",
+        "agents"
+      ],
+      "integrations": [
+        "Enterprise data",
+        "Slack",
+        "Microsoft 365"
+      ]
     },
     {
       "id": "writer",
@@ -360,8 +710,23 @@
       "source_model": "proprietary",
       "website": "https://writer.com/",
       "logo_url": "https://writer.com/wp-content/uploads/2021/08/writer-w-logo-1.png?w=192",
-      "source_urls": ["https://writer.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://writer.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "enterprise-contract",
+      "capabilities": [
+        "enterprise-agents",
+        "governance",
+        "content-generation",
+        "workflow-automation"
+      ],
+      "integrations": [
+        "APIs",
+        "Enterprise data",
+        "REST API"
+      ]
     },
     {
       "id": "hippocratic-ai",
@@ -375,8 +740,23 @@
       "source_model": "proprietary",
       "website": "https://www.hippocraticai.com/",
       "logo_url": "https://www.hippocraticai.com/favicon.ico",
-      "source_urls": ["https://www.hippocraticai.com/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.hippocraticai.com/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "enterprise-contract",
+      "capabilities": [
+        "healthcare-agents",
+        "patient-support",
+        "safety-controls",
+        "voice"
+      ],
+      "integrations": [
+        "Healthcare systems",
+        "Voice",
+        "REST API"
+      ]
     },
     {
       "id": "11x",
@@ -390,8 +770,23 @@
       "source_model": "proprietary",
       "website": "https://www.11x.ai/",
       "logo_url": "https://cdn.prod.website-files.com/66fe5a1a88c73ef8f270d312/672b7d180740b1d201c12ebf_Webclip.png",
-      "source_urls": ["https://www.11x.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.11x.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "enterprise-contract",
+      "capabilities": [
+        "sales-agents",
+        "prospecting",
+        "revenue-operations",
+        "workflow-automation"
+      ],
+      "integrations": [
+        "CRM",
+        "Email",
+        "Sales tools"
+      ]
     },
     {
       "id": "hebbia",
@@ -405,8 +800,23 @@
       "source_model": "proprietary",
       "website": "https://www.hebbia.ai/",
       "logo_url": "https://www.hebbia.com/apple-touch-icon.png",
-      "source_urls": ["https://www.hebbia.ai/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.hebbia.ai/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "enterprise-contract",
+      "capabilities": [
+        "research",
+        "document-analysis",
+        "multi-source-search",
+        "collaboration"
+      ],
+      "integrations": [
+        "Enterprise data",
+        "Document systems",
+        "REST API"
+      ]
     },
     {
       "id": "openai",
@@ -420,8 +830,25 @@
       "source_model": "proprietary",
       "website": "https://openai.com/",
       "logo_url": "https://github.com/openai.png?size=128",
-      "source_urls": ["https://openai.com/", "https://openai.com/codex/"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://openai.com/",
+        "https://openai.com/codex/"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based-and-subscription",
+      "capabilities": [
+        "general-agent",
+        "coding-agent",
+        "computer-use",
+        "tool-use"
+      ],
+      "integrations": [
+        "OpenAI API",
+        "MCP",
+        "Python",
+        "TypeScript"
+      ]
     },
     {
       "id": "anthropic",
@@ -435,8 +862,25 @@
       "source_model": "proprietary",
       "website": "https://www.anthropic.com/",
       "logo_url": "https://www.anthropic.com/favicon.ico",
-      "source_urls": ["https://www.anthropic.com/", "https://www.anthropic.com/claude-code"],
-      "last_verified": "2026-07-22"
+      "source_urls": [
+        "https://www.anthropic.com/",
+        "https://www.anthropic.com/claude-code"
+      ],
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based-and-subscription",
+      "capabilities": [
+        "general-agent",
+        "coding-agent",
+        "computer-use",
+        "tool-use"
+      ],
+      "integrations": [
+        "Claude API",
+        "MCP",
+        "Python",
+        "TypeScript"
+      ]
     }
   ]
 }

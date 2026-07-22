@@ -29,6 +29,8 @@ The primary cohort is venture-backed startups and scaleups. Established platform
 
 `source_model` describes the core product, not whether a vendor publishes SDKs or examples. `open-core` means a meaningful framework or core component is public while a managed commercial service is also offered.
 
+`status` is a catalog-level lifecycle marker. `pricing_model` describes the broad billing shape without asserting a current price. `capabilities` and `integrations` are representative tags used for comparison, not exhaustive feature claims.
+
 `last_verified` records the most recent manual review of the listed sources. It does not guarantee that pricing, availability, or every implementation detail is unchanged.
 
 ## Update Process

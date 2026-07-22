@@ -28,33 +28,47 @@ const sorted = (entries) =>
 const companyCell = (entry) =>
   `<img src="${entry.logo_url}" alt="${escapeCell(entry.company)} logo" width="40" height="40">`;
 
+const sandboxCompanyCell = (entry) =>
+  `<img src="${entry.logo_url}" alt="${escapeCell(entry.company)} logo" width="64" height="64">`;
+
 const featureCompanyCell = (entry) =>
   `<img src="${entry.logo_url}" alt="${escapeCell(entry.company)} logo" width="64" height="64">`;
 
+const listCell = (values) => escapeCell(values.join(", "));
+
 const sandboxTable = [
-  "| | Company | Product | Segment | Positioning | State model |",
-  "|---|---|---|---|---|---|",
+  "| | Company | Product | Segment | Status | Pricing | Positioning | State model |",
+  "|---|---|---|---|---|---|---|---|",
   ...sorted(sandboxes.entries).map(
     (entry) =>
-      `| ${companyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.product)} | ${label(entry.category)} | ${escapeCell(entry.positioning)} | ${escapeCell(entry.state_model)} |`
+      `| ${sandboxCompanyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.product)} | ${label(entry.category)} | ${label(entry.status)} | ${label(entry.pricing_model)} | ${escapeCell(entry.positioning)} | ${escapeCell(entry.state_model)} |`
   )
 ].join("\n");
 
 const sandboxFeatureTable = [
-  "| | Company | Workload | Isolation | State model | Delivery | Source model |",
-  "|---|---|---|---|---|---|---|",
+  "| | Company | Workload | Isolation | State model | Capabilities | Delivery | Pricing | Status |",
+  "|---|---|---|---|---|---|---|---|---|",
   ...sorted(sandboxes.entries).map(
     (entry) =>
-      `| ${featureCompanyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.workload)} | ${escapeCell(entry.isolation)} | ${escapeCell(entry.state_model)} | ${label(entry.delivery)} | ${label(entry.source_model)} |`
+      `| ${featureCompanyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.workload)} | ${escapeCell(entry.isolation)} | ${escapeCell(entry.state_model)} | ${listCell(entry.capabilities)} | ${label(entry.delivery)} | ${label(entry.pricing_model)} | ${label(entry.status)} |`
   )
 ].join("\n");
 
 const agentTable = [
-  "| | Company | Product | Segment | Positioning | Primary buyer |",
-  "|---|---|---|---|---|---|",
+  "| | Company | Product | Segment | Status | Pricing | Positioning | Primary buyer |",
+  "|---|---|---|---|---|---|---|---|",
   ...sorted(agents.entries).map(
     (entry) =>
-      `| ${companyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.product)} | ${label(entry.category)} | ${escapeCell(entry.positioning)} | ${escapeCell(entry.primary_buyer)} |`
+      `| ${companyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.product)} | ${label(entry.category)} | ${label(entry.status)} | ${label(entry.pricing_model)} | ${escapeCell(entry.positioning)} | ${escapeCell(entry.primary_buyer)} |`
+  )
+].join("\n");
+
+const agentFeatureTable = [
+  "| | Company | Product | Segment | Capabilities | Integrations | Primary buyer | Delivery | Pricing | Status |",
+  "|---|---|---|---|---|---|---|---|---|---|",
+  ...sorted(agents.entries).map(
+    (entry) =>
+      `| ${featureCompanyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.product)} | ${label(entry.category)} | ${listCell(entry.capabilities)} | ${listCell(entry.integrations)} | ${escapeCell(entry.primary_buyer)} | ${label(entry.delivery)} | ${label(entry.pricing_model)} | ${label(entry.status)} |`
   )
 ].join("\n");
 
@@ -89,6 +103,10 @@ const targets = [
   {
     relativePath: "docs/sandbox-comparison.md",
     sections: [["sandbox-feature-table", sandboxFeatureTable]]
+  },
+  {
+    relativePath: "docs/agent-comparison.md",
+    sections: [["agent-feature-table", agentFeatureTable]]
   }
 ];
 

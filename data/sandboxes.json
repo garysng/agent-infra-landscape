@@ -21,7 +21,20 @@
         "https://e2b.dev/",
         "https://e2b.dev/docs"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "code-execution",
+        "computer-use",
+        "templates",
+        "files"
+      ],
+      "integrations": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ]
     },
     {
       "id": "daytona",
@@ -41,7 +54,20 @@
         "https://www.daytona.io/",
         "https://www.daytona.io/docs/"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "code-execution",
+        "development-environments",
+        "snapshots",
+        "SDK"
+      ],
+      "integrations": [
+        "Python",
+        "TypeScript",
+        "Docker"
+      ]
     },
     {
       "id": "runloop",
@@ -61,7 +87,20 @@
         "https://runloop.ai/",
         "https://docs.runloop.ai/"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "code-execution",
+        "coding-agents",
+        "evaluations",
+        "devboxes"
+      ],
+      "integrations": [
+        "Python",
+        "TypeScript",
+        "REST API"
+      ]
     },
     {
       "id": "morph",
@@ -81,7 +120,20 @@
         "https://www.morph.so/",
         "https://cloud.morph.so/docs"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "code-execution",
+        "environment-branching",
+        "snapshots",
+        "scaling"
+      ],
+      "integrations": [
+        "Python",
+        "TypeScript",
+        "REST API"
+      ]
     },
     {
       "id": "blaxel",
@@ -101,7 +153,20 @@
         "https://blaxel.ai/",
         "https://docs.blaxel.ai/Sandboxes/Overview"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "code-execution",
+        "persistent-filesystem",
+        "networking",
+        "agent-runtime"
+      ],
+      "integrations": [
+        "Python",
+        "TypeScript",
+        "MCP"
+      ]
     },
     {
       "id": "modal",
@@ -121,7 +186,20 @@
         "https://modal.com/docs/guide/sandboxes",
         "https://modal.com/docs"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "code-execution",
+        "containers",
+        "serverless-compute",
+        "GPU"
+      ],
+      "integrations": [
+        "Python",
+        "Docker",
+        "GPU workloads"
+      ]
     },
     {
       "id": "fly-io",
@@ -141,7 +219,20 @@
         "https://fly.io/sprites",
         "https://docs.fly.io/sprites/"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "code-execution",
+        "persistent-linux",
+        "checkpoint-restore",
+        "networking"
+      ],
+      "integrations": [
+        "Linux",
+        "SSH",
+        "HTTP"
+      ]
     },
     {
       "id": "browserbase",
@@ -161,7 +252,20 @@
         "https://www.browserbase.com/",
         "https://docs.browserbase.com/"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "browser-automation",
+        "sessions",
+        "observability",
+        "anti-bot"
+      ],
+      "integrations": [
+        "Playwright",
+        "Puppeteer",
+        "CDP"
+      ]
     },
     {
       "id": "kernel",
@@ -181,7 +285,20 @@
         "https://www.kernel.sh/",
         "https://www.kernel.sh/docs"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "browser-automation",
+        "sessions",
+        "autoscaling",
+        "anti-bot"
+      ],
+      "integrations": [
+        "Playwright",
+        "Puppeteer",
+        "CDP"
+      ]
     },
     {
       "id": "steel",
@@ -201,7 +318,20 @@
         "https://steel.dev/",
         "https://docs.steel.dev/"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "browser-automation",
+        "Chromium",
+        "sessions",
+        "self-hosting"
+      ],
+      "integrations": [
+        "Playwright",
+        "Puppeteer",
+        "CDP"
+      ]
     },
     {
       "id": "cloudflare",
@@ -221,7 +351,20 @@
         "https://developers.cloudflare.com/sandbox/",
         "https://github.com/cloudflare/sandbox-sdk"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "code-execution",
+        "containers",
+        "filesystem",
+        "processes"
+      ],
+      "integrations": [
+        "Workers",
+        "Containers",
+        "JavaScript"
+      ]
     },
     {
       "id": "docker",
@@ -240,7 +383,20 @@
       "source_urls": [
         "https://docs.docker.com/ai/sandboxes/"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "subscription",
+      "capabilities": [
+        "coding-agents",
+        "microVM",
+        "Docker-workflows",
+        "local-development"
+      ],
+      "integrations": [
+        "Docker",
+        "Claude Code",
+        "Codex"
+      ]
     },
     {
       "id": "aws",
@@ -260,7 +416,20 @@
         "https://aws.amazon.com/bedrock/agentcore/",
         "https://docs.aws.amazon.com/bedrock-agentcore/"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "agent-runtime",
+        "code-interpreter",
+        "browser-use",
+        "observability"
+      ],
+      "integrations": [
+        "Bedrock",
+        "IAM",
+        "CloudWatch"
+      ]
     },
     {
       "id": "microsoft-azure",
@@ -279,7 +448,20 @@
       "source_urls": [
         "https://learn.microsoft.com/en-us/azure/container-apps/sessions"
       ],
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-22",
+      "status": "active",
+      "pricing_model": "usage-based",
+      "capabilities": [
+        "code-execution",
+        "containers",
+        "dynamic-sessions",
+        "autoscaling"
+      ],
+      "integrations": [
+        "Azure Container Apps",
+        "Azure",
+        "REST API"
+      ]
     }
   ]
 }
