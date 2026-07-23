@@ -47,7 +47,7 @@ The agent track spans engineering platforms, enabling infrastructure, horizontal
 
 <!-- agent-table:start -->
 | Company | Product | Segment | Status | Pricing | Positioning | Primary buyer |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | <img src="https://cdn.prod.website-files.com/66fe5a1a88c73ef8f270d312/672b7d180740b1d201c12ebf_Webclip.png" alt="11x logo" width="40" height="40" align="absmiddle"> [11x](https://www.11x.ai/) | Digital Workers | revenue agent | active | enterprise contract | Digital workers for sales, revenue operations, and go-to-market execution. | Sales, RevOps, and go-to-market leaders |
 | <img src="https://cursor.com/marketing-static/icon-192x192-light.png" alt="Anysphere logo" width="40" height="40" align="absmiddle"> [Anysphere](https://cursor.com/) | Cursor | coding agent | active | subscription | An AI code editor and coding agent focused on developer productivity. | Individual developers and software teams |
 | <img src="https://www.arcade.dev/_astro/webclip.BYnZsC5R.png" alt="Arcade logo" width="40" height="40" align="absmiddle"> [Arcade](https://www.arcade.dev/) | Arcade | tool runtime | active | usage based | An MCP runtime for secure agent authorization, reliable tools, and governance. | Teams shipping production agents with user-authorized actions |

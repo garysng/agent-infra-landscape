@@ -50,7 +50,7 @@ const sandboxFeatureTable = [
 
 const agentTable = [
   "| Company | Product | Segment | Status | Pricing | Positioning | Primary buyer |",
-  "|---|---|---|---|---|---|---|---|",
+  "|---|---|---|---|---|---|---|",
   ...sorted(agents.entries).map(
     (entry) =>
       `| ${companyLinkCell(entry, 40)} | ${escapeCell(entry.product)} | ${label(entry.category)} | ${label(entry.status)} | ${label(entry.pricing_model)} | ${escapeCell(entry.positioning)} | ${escapeCell(entry.primary_buyer)} |`
