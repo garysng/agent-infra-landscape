@@ -25,50 +25,44 @@ const sorted = (entries) =>
     return roleDelta || a.company.localeCompare(b.company);
   });
 
-const companyCell = (entry) =>
-  `<img src="${entry.logo_url}" alt="${escapeCell(entry.company)} logo" width="40" height="40">`;
-
-const sandboxCompanyCell = (entry) =>
-  `<img src="${entry.logo_url}" alt="${escapeCell(entry.company)} logo" width="64" height="64">`;
-
-const featureCompanyCell = (entry) =>
-  `<img src="${entry.logo_url}" alt="${escapeCell(entry.company)} logo" width="64" height="64">`;
+const companyLinkCell = (entry, size) =>
+  `<img src="${entry.logo_url}" alt="${escapeCell(entry.company)} logo" width="${size}" height="${size}" align="absmiddle"> [${escapeCell(entry.company)}](${entry.website})`;
 
 const listCell = (values) => escapeCell(values.join(", "));
 
 const sandboxTable = [
-  "| | Company | Product | Segment | Status | Pricing | Positioning | State model |",
-  "|---|---|---|---|---|---|---|---|",
+  "| Company | Product | Segment | Status | Pricing | Positioning | State model |",
+  "|---|---|---|---|---|---|---|",
   ...sorted(sandboxes.entries).map(
     (entry) =>
-      `| ${sandboxCompanyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.product)} | ${label(entry.category)} | ${label(entry.status)} | ${label(entry.pricing_model)} | ${escapeCell(entry.positioning)} | ${escapeCell(entry.state_model)} |`
+      `| ${companyLinkCell(entry, 64)} | ${escapeCell(entry.product)} | ${label(entry.category)} | ${label(entry.status)} | ${label(entry.pricing_model)} | ${escapeCell(entry.positioning)} | ${escapeCell(entry.state_model)} |`
   )
 ].join("\n");
 
 const sandboxFeatureTable = [
-  "| | Company | Workload | Isolation | State model | Capabilities | Delivery | Pricing | Status |",
-  "|---|---|---|---|---|---|---|---|---|",
+  "| Company | Workload | Isolation | State model | Capabilities | Delivery | Pricing | Status |",
+  "|---|---|---|---|---|---|---|---|",
   ...sorted(sandboxes.entries).map(
     (entry) =>
-      `| ${featureCompanyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.workload)} | ${escapeCell(entry.isolation)} | ${escapeCell(entry.state_model)} | ${listCell(entry.capabilities)} | ${label(entry.delivery)} | ${label(entry.pricing_model)} | ${label(entry.status)} |`
+      `| ${companyLinkCell(entry, 64)} | ${escapeCell(entry.workload)} | ${escapeCell(entry.isolation)} | ${escapeCell(entry.state_model)} | ${listCell(entry.capabilities)} | ${label(entry.delivery)} | ${label(entry.pricing_model)} | ${label(entry.status)} |`
   )
 ].join("\n");
 
 const agentTable = [
-  "| | Company | Product | Segment | Status | Pricing | Positioning | Primary buyer |",
+  "| Company | Product | Segment | Status | Pricing | Positioning | Primary buyer |",
   "|---|---|---|---|---|---|---|---|",
   ...sorted(agents.entries).map(
     (entry) =>
-      `| ${companyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.product)} | ${label(entry.category)} | ${label(entry.status)} | ${label(entry.pricing_model)} | ${escapeCell(entry.positioning)} | ${escapeCell(entry.primary_buyer)} |`
+      `| ${companyLinkCell(entry, 40)} | ${escapeCell(entry.product)} | ${label(entry.category)} | ${label(entry.status)} | ${label(entry.pricing_model)} | ${escapeCell(entry.positioning)} | ${escapeCell(entry.primary_buyer)} |`
   )
 ].join("\n");
 
 const agentFeatureTable = [
-  "| | Company | Product | Segment | Capabilities | Integrations | Primary buyer | Delivery | Pricing | Status |",
-  "|---|---|---|---|---|---|---|---|---|---|",
+  "| Company | Product | Segment | Capabilities | Integrations | Primary buyer | Delivery | Pricing | Status |",
+  "|---|---|---|---|---|---|---|---|---|",
   ...sorted(agents.entries).map(
     (entry) =>
-      `| ${featureCompanyCell(entry)} | [${escapeCell(entry.company)}](${entry.website}) | ${escapeCell(entry.product)} | ${label(entry.category)} | ${listCell(entry.capabilities)} | ${listCell(entry.integrations)} | ${escapeCell(entry.primary_buyer)} | ${label(entry.delivery)} | ${label(entry.pricing_model)} | ${label(entry.status)} |`
+      `| ${companyLinkCell(entry, 64)} | ${escapeCell(entry.product)} | ${label(entry.category)} | ${listCell(entry.capabilities)} | ${listCell(entry.integrations)} | ${escapeCell(entry.primary_buyer)} | ${label(entry.delivery)} | ${label(entry.pricing_model)} | ${label(entry.status)} |`
   )
 ].join("\n");
 
