@@ -268,6 +268,40 @@
       ]
     },
     {
+      "id": "cloudbrowser",
+      "company": "Cloudbrowser",
+      "product": "Cloudbrowser",
+      "market_role": "startup-scaleup",
+      "category": "browser-runtime",
+      "positioning": "Managed Chrome desktops for AI agents with persistent browser profiles and permission-controlled Live View.",
+      "workload": "Browser agents, web automation, and interactive browser workflows",
+      "isolation": "separate managed Chrome environments with individual browser profiles",
+      "state_model": "Browser profiles survive pause and resume, with forks from paused browsers",
+      "delivery": "managed-cloud",
+      "source_model": "proprietary",
+      "website": "https://cloudbrowser.tv/",
+      "logo_url": "https://cloudbrowser.tv/icon.svg",
+      "source_urls": [
+        "https://cloudbrowser.tv/docs",
+        "https://cloudbrowser.tv/docs/api",
+        "https://cloudbrowser.tv/docs/connections",
+        "https://cloudbrowser.tv/pricing"
+      ],
+      "last_verified": "2026-11-24",
+      "status": "active",
+      "pricing_model": "subscription",
+      "capabilities": [
+        "browser-automation",
+        "persistent-profiles",
+        "pause-resume",
+        "forks",
+        "live-view"
+      ],
+      "integrations": [
+        "CDP"
+      ]
+    },
+    {
       "id": "kernel",
       "company": "Kernel",
       "product": "Kernel Browsers",

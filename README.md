@@ -3,7 +3,7 @@
 A structured, source-linked landscape of AI agent companies and sandbox providers. The repository tracks product capabilities and market positioning, not funding rumors or vendor rankings.
 
 <!-- stats:start -->
-**42 companies** tracked across **14 sandbox products** and **29 agent products**.
+**43 companies** tracked across **15 sandbox products** and **29 agent products**.
 
 Last verified: **2026-07-22**. Product claims link to first-party sources.
 <!-- stats:end -->
@@ -27,6 +27,7 @@ The sandbox track covers general code sandboxes, coding-agent environments, brow
 |:---:|---|---|---|---|---|---|---|
 | <img src="https://blaxel.ai/image/logo_short.png" alt="Blaxel logo" width="64" height="64"> | [Blaxel](https://blaxel.ai/) | Blaxel Sandboxes | agent runtime | active | usage based | Infrastructure for autonomous agents combining sandboxes, persistent memory, and programmable networking. | Persistent filesystems, snapshots, and standby resume |
 | <img src="https://github.com/browserbase.png?size=128" alt="Browserbase logo" width="64" height="64"> | [Browserbase](https://www.browserbase.com/) | Browserbase | browser runtime | active | usage based | Managed browser infrastructure that gives agents access to the web. | Ephemeral and reusable browser sessions |
+| <img src="https://cloudbrowser.tv/icon.svg" alt="Cloudbrowser logo" width="64" height="64"> | [Cloudbrowser](https://cloudbrowser.tv/) | Cloudbrowser | browser runtime | active | subscription | Managed Chrome desktops for AI agents with persistent browser profiles and permission-controlled Live View. | Browser profiles survive pause and resume, with forks from paused browsers |
 | <img src="https://framerusercontent.com/images/6WPclDLAHHQgPFeA2DRTW1OXVSU.png" alt="Daytona logo" width="64" height="64"> | [Daytona](https://www.daytona.io/) | Daytona Sandboxes | coding environment | active | usage based | Secure and elastic infrastructure for running AI-generated code. | Snapshots and reusable environment images |
 | <img src="https://cdn.prod.website-files.com/6717bb6618f6a40d53ac2929/6a2a7d841b5c3c6e1f8eebed_Favicon_512x512.png" alt="E2B logo" width="64" height="64"> | [E2B](https://e2b.dev/) | E2B Sandbox | general purpose | active | usage based | Secure cloud computers for AI agents that need code execution and real-world tools. | Session state with lifecycle controls and reusable templates |
 | <img src="https://fly.io/phx/ui/images/favicon/apple-touch-icon-3e4c9ce127b5cd6f5516638d4bbf1dd5.png?vsn=d" alt="Fly.io logo" width="64" height="64"> | [Fly.io](https://fly.io/sprites) | Sprites | general purpose | active | usage based | Stateful, hardware-isolated Linux sandboxes with checkpoint and restore. | Persistent filesystem with checkpoint and restore |
